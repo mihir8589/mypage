@@ -1,6 +1,1 @@
-mypage
-======
-
-myExamplePage
-
-This page is for demo.
+Everything is in the gh-pages branch. 
