@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- File: 
+     91.461 Assignment 6: Creating an Interactive Dynamic Table
+     Mihir Patel, UMass Lowell Computer Science, mihir_patel@student.uml.edu
+     Created on October 22, 2014
+     Helped from Takyiu Lo
+     This webpage will get a range of multiplication table and creates it -->
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Create a multiplication table</title>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel=
+    'stylesheet' type='text/css'>
+    <link href="table.css" rel="stylesheet" type="text/css">
+    <script src="table.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <h1>Creating an Interactive Dynamic Table</h1>
+
+    <h4><span style="font-weight:900">Note:</span> Please enter numbers only if
+    you enter anyother key the input box will be red.</h4>
+
+    <form action="javascript:void(0)" id="inputs" name="inputs">
+        First row: <input autofocus="" id="pOne" onkeyup=
+        "return numbersonly(this, event)" type="text" value="0"><br>
+        Last row: <input id="pTwo" onkeyup="return numbersonly(this, event)"
+        type="text" value="0"><br>
+        Start column: <input id="pThree" onkeyup=
+        "return numbersonly(this, event)" type="text" value="0"><br>
+        End column: <input id="pFour" onkeyup="return numbersonly(this, event)"
+        type="text" value="0"><br>
+        <button onclick="crTable()" type="button">Create</button>
+    </form>
+</body>
+</html>

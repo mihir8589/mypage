@@ -1,0 +1,61 @@
+/*
+  91.460 Assignment:  Creating an Interactive Dynamic Table
+  Mihir Patel, UMass Lowell Compter Science, mihir_patel@student.uml.edu
+  Created: October 22, 2014 */
+
+/* styling the body, where to start */
+body {
+    background:#C5AE87;
+    color:#777;
+    font-family:'Droid Serif',serif;
+    margin:25px 100px;
+}
+
+/* give the header a different color and center h1*/
+h1 {
+    color:black;
+    text-align:center;
+}
+
+/* give the header a different color and center h4 */
+h4 {
+    color:red;
+    text-align:center;
+}
+
+/* give the text in form a different color */
+form {
+    color:#777;
+}
+
+/* changing the appearance of the inputs */
+input {
+    margin:7px 20px;
+    border:2px solid #dadada;
+    padding:0 4px;
+}
+
+/* changing the appearance of the focus of inputs */
+input:focus {
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
+
+/* changing the appearance of the button */
+button {
+    margin:20px;
+    border:2px solid #dadada;
+    padding:0 10px;
+}
+
+/* changing the appearance of the focus of thebutton */
+button:focus {
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
+
+#inputs {
+    text-align:center;
+}
