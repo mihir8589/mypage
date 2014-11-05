@@ -1,0 +1,32 @@
+@import "http://fonts.googleapis.com/css?family=Noticia+Text";
+
+body {
+    background:#eee;
+    color:#333;
+    font-family:'Noticia Text',serif;
+    margin:25px 100px
+}
+
+#navBar {
+    text-align:center
+}
+
+#navBar a {
+    background-color:#CD661D;
+    border:1px;
+    border-radius:16px;
+    margin:0 64px;
+    padding:8px 16px;
+    color:#FFF
+}
+
+#navBar a:hover {
+    color:#000;
+    background:#ccc;
+    border-color:#000
+}
+
+#content {
+    margin:100px;
+    padding:16px
+}
