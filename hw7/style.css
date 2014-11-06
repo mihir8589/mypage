@@ -1,0 +1,59 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans";
+
+/*
+  File: 
+  91.460 Assignment:  Creating My First Web Page
+  Mihir Patel, UMass Lowell Compter Science, mihir_patel@student.uml.edu
+  Created: November 4, 2014
+*/
+/* Use Google Fonts. */
+/* Background color to be black.*/
+body {
+    background-color:#000
+}
+
+/* Unordered list style will be none.*/
+ul {
+    list-style-type:none
+}
+
+/* The list will disply inline.*/
+li {
+    display:inline;
+    margin:0 10px
+}
+
+/* Text from navbar aligned center.*/
+#navbar {
+    text-align:center
+}
+
+/* Style the navigation bar links.  */
+#navbar a {
+    font-family:'Open Sans',sans-serif;
+    font-size:1.5em;
+    margin:0 10px;
+    padding:0 8px;
+    color:#000;
+    text-decoration:none;
+    background-color:#90EE90;
+    border:2px solid;
+    border-color:#fff;
+    border-radius:20px
+}
+
+/* Give the user an affordance that each link is clickable. */
+#navbar a:hover {
+    border-color:#000
+}
+
+/* Style the active page link. */
+#navbar a.active {
+    border-color:gray
+}
+
+/* content to move to specific position.*/
+#content {
+    padding:0 16px;
+    margin:100px
+}
