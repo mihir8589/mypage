@@ -14,6 +14,10 @@
     'stylesheet' type='text/css'>
     <link href="table.css" rel="stylesheet" type="text/css">
     <script src="table.js" type="text/javascript"></script>
+    <!-- Load jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 </head>
 
 <body>
@@ -24,13 +28,13 @@
 
     <form action="javascript:void(0)" id="inputs" name="inputs">
         First row: <input autofocus="" id="pOne" onkeyup=
-        "return numbersonly(this, event)" type="text"><br>
+        "return numbersonly(this, event)" type="text" required autofocus><br>
         Last row: <input id="pTwo" onkeyup="return numbersonly(this, event)"
-        type="text"><br>
+        type="text" required><br>
         Start column: <input id="pThree" onkeyup=
-        "return numbersonly(this, event)" type="text"><br>
+        "return numbersonly(this, event)" type="text" required><br>
         End column: <input id="pFour" onkeyup="return numbersonly(this, event)"
-        type="text"><br>
+        type="text" required><br>
         <button onclick="crTable()" type="button">Create</button>
     </form>
 </body>
