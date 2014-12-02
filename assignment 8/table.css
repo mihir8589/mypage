@@ -1,0 +1,96 @@
+/*
+  91.461 Assignment 8: Using the jQuery Validation Plugin and jQueryUI Tabbed Widget
+     Mihir Patel, UMass Lowell Computer Science, mihir_patel@student.uml.edu
+     Created on November 24, 2014 */
+/* styling the body, where to start */
+body {
+    background:#C5AE87;
+    color:#777;
+    font-family:'Droid Serif',serif;
+    margin:25px 100px;
+}
+
+/* give the header a different color and center h1*/
+h1 {
+    color:blue;
+    text-align:center;
+}
+
+/* give the text in form a different color */
+form {
+    color:#777;
+}
+
+/* changing the appearance of the inputs */
+input {
+    margin:7px 20px;
+    border:2px solid #dadada;
+    padding:0 4px;
+    font-size: 20px;
+}
+
+/* changing the appearance of the focus of inputs */
+input:focus {
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
+
+/* changing the appearance of the button */
+button {
+    margin:20px;
+    border:2px solid #dadada;
+    padding:0 10px;
+    font-size: 20px;
+}
+
+/* changing the appearance of the focus of thebutton */
+button:focus {
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
+
+/* error message to red */
+.my-error-class {
+    color:red;
+}
+
+/* valid message to green */
+.my-valid-class {
+    color:#0C0;
+}
+
+/* I used this to format my tabs. */
+/* http://keith-wood.name/uitabs.html#tabs-nobg  */
+#tabs {
+    background:#FFE5CC;
+    border:none;
+}
+
+#tabs .ui-widget-header {
+    background:transparent;
+    border:none;
+    border-bottom:1px solid #000;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+}
+
+#tabs .ui-tabs-nav .ui-state-default {
+    background:transparent;
+/*border: none; */
+}
+
+#tabs .ui-tabs-nav .ui-state-active {
+    background:transparent url(img/uiTabsArrow.png) no-repeat bottom center;
+/* border: none; */
+}
+
+#tabs .ui-tabs-nav .ui-state-default a {
+    color:#000
+}
+
+#tabs .ui-tabs-nav .ui-state-active a {
+    color:#000
+}
